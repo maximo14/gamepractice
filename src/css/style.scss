@@ -1,0 +1,15 @@
+#lienzo{
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    display: none;
+  }
+ 
+#snow-flake-1 {
+    position: absolute;
+    clip: rect(20px, 90px, 125px, 0);
+    /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
+}
+
